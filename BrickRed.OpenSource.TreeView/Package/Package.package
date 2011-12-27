@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5b1ce616-dc39-4736-9f93-bb79078190c6" solutionId="5b1ce616-dc39-4736-9f93-bb79078190c6" resetWebServer="false" name="BrickRed.OpenSource.TreeView" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="8a683229-a944-4ea6-843e-8034337c14eb" />
+    <projectItemReference itemId="3c4ca667-a5a3-42fd-92ed-37044d300001" />
+    <projectItemReference itemId="df6f4f97-1e6e-4c0f-b6a4-307a2b25dffa" />
+  </projectItems>
+</package>
