@@ -9,10 +9,6 @@ SharePoint Foundation 2010 / SharePoint 2010 Environment
 
 Download WSP for 2010 and unzip the TreeView archive. This contains the WSP file and power shell scripts files to retract and install.
 
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
 = 2010 Installation =
 
 1. Right click on PackageDeploy.ps1 file and click "Run with PowerShell" 
