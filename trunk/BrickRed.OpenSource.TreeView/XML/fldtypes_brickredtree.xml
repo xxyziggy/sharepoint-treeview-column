@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">TreeViewControl</Field>
+    <Field Name="ParentType">MultiColumn</Field>
+    <Field Name="TypeDisplayName">TreeView</Field>
+    <Field Name="TypeShortDescription">TreeView</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListCreate">TRUE</Field>
+    <Field Name="ShowOnSurveyCreate">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/TreeViewPropertyEditor.ascx</Field>
+    <Field Name="FieldTypeClass">Brickred.OpenSource.TreeView.TreeViewControl,$SharePoint.Project.AssemblyFullName$</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Name="ListName" Hidden="TRUE" DisplayName="ListName" Type="Text" MaxLength="255">
+          <Default>
+          </Default>
+        </Field>
+        <Field Name="ValueColumn" Hidden="TRUE" DisplayName="ValueColumn" Type="Text" MaxLength="255">
+          <Default>
+          </Default>
+        </Field>
+        <Field Name="ParentLookup" Hidden="TRUE" DisplayName="ParentLookup" Type="Text" MaxLength="255">
+          <Default>
+          </Default>
+        </Field>
+        <Field Name="ExpandCollapse" Hidden="TRUE" DisplayName="ExpandCollapse" Type="Text" MaxLength="255">
+          <Default>
+          </Default>
+        </Field>
+          <Field Name="KeyColumn" Hidden="TRUE" DisplayName="KeyColumn" Type="Text" MaxLength="255">
+            <Default>
+            </Default>
+        </Field>        
+      </Fields>
+    </PropertySchema>
+    
+    <RenderPattern Name="DisplayPattern">
+      <Switch>
+        <Expr>
+          <Column SubColumnNumber="1"/>
+        </Expr>
+        <Default>
+          <HTML></HTML>
+          <Column SubColumnNumber="0" HTMLEncode="False"/>
+          <HTML><![CDATA[ - ]]></HTML>
+          <Column SubColumnNumber="1" HTMLEncode="False"/>
+          <HTML><![CDATA[, &nbsp;]]></HTML>
+          <Column SubColumnNumber="2" HTMLEncode="False"/>
+        </Default>
+      </Switch>
+    </RenderPattern>
+  </FieldType>
+</FieldTypes>
