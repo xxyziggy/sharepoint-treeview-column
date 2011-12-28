@@ -1,20 +1,19 @@
 #summary One-sentence summary of this page.
 
-= Prerequisites =
+== Prerequisites ==
 
-SharePoint Foundation 2010 / SharePoint 2010 Environment
+ !SharePoint Foundation 2010 / !SharePoint 2010 Environment
+
+== Step 1. WSP Installation ==
+
+Download WSP for 2010 and unzip the !TreeView archive. This contains the WSP file and power shell scripts files to retract and install.
+
+=== 2010 Installation ===
+
+# Right click on !PackageDeploy.ps1 file and click "Run with !PowerShell" 
 
 
-= Step 1. WSP Installation =
-
-Download WSP for 2010 and unzip the TreeView archive. This contains the WSP file and power shell scripts files to retract and install.
-
-= 2010 Installation =
-
-1. Right click on PackageDeploy.ps1 file and click "Run with PowerShell" 
-
-
-2. IF you have already installed this solution before; then you will be given 3 options : 
+# IF you have already installed this solution before; then you will be given 3 options : 
 
  Retract and Install solution
 
@@ -23,4 +22,4 @@ Download WSP for 2010 and unzip the TreeView archive. This contains the WSP file
  Exit 
 
 
-3. In this demo, I opted for 1st option 
+# In this demo, I opted for 1st option 
