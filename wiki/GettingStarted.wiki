@@ -10,7 +10,11 @@ Download WSP for 2010 and unzip the !TreeView archive. This contains the WSP fil
 
 === 2010 Installation ===
 
-# Right click on !PackageDeploy.ps1 file and click "Run with !PowerShell" 
+# Right click on !PackageDeploy.ps1 file and click "Run with !PowerShell"  <br/>https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/powershellinstall.png
+
+https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/powershellinstall1.png
+
+https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/powershellinstall2.png
 
 
 # IF you have already installed this solution before; then you will be given 3 options : 
@@ -20,6 +24,15 @@ Download WSP for 2010 and unzip the !TreeView archive. This contains the WSP fil
  Upgrade Solution
 
  Exit 
+<br/>
+https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/SolutionAlreadyExists.png
 
+# In this demo, I opted for 1st option <br/>
 
-# In this demo, I opted for 1st option 
+https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/Deployment-Success.png
+
+# Also, there is another powersheel script - PackageRetract.ps1. This script is used to rectrat solution.
+
+# Right click on !PackageRetract.ps1 file and click "Run with !PowerShell"  
+
+https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/RetractSolution.png
