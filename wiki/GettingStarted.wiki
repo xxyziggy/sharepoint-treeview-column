@@ -6,7 +6,7 @@
 
 == Step 1. WSP Installation ==
 
-Download WSP for 2010 and unzip the !TreeView archive. This contains the WSP file and power shell scripts files to retract and install.
+[http://code.google.com/p/sharepoint-treeview-column/downloads/list Download] WSP for 2010 and unzip the !TreeView archive. This contains the WSP file and power shell scripts files to retract and install.
 
 === 2010 Installation ===
 
@@ -101,4 +101,3 @@ https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/TreeDemo_Displ
 All Items listing
 
 https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/TreeDemo_AllItems.png
-
