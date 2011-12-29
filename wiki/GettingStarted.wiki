@@ -1,4 +1,5 @@
 #summary One-sentence summary of this page.
+#labels SharePoint2010,Tree,CustomField
 
 == Prerequisites ==
 
@@ -62,15 +63,15 @@
 
   https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/ParentChildMasterData.png
 
-  * After creating master list, create another list that in real use the TreeView field. For demo purpose, create "Tree Demo" list with two columns:
+  * After creating master list, create another list that in real use the !TreeView field. For demo purpose, create "Tree Demo" list with two columns:
         1. Title (Single line text)
-        2. Tree (TreeView type)
+        2. Tree (!TreeView type)
 
-  While creating Tree column, in the existing sharepoint fields you will see your newly deployed column "TreeView"
+  While creating Tree column, in the existing sharepoint fields you will see your newly deployed column "!TreeView"
 
   https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/TreeViewColumn.png
 
-  After select "TreeView" field, you need to set some values:
+  After select "!TreeView" field, you need to set some values:
 
   https://sharepoint-treeview-column.googlecode.com/svn/wiki/Images/TreeColumn_ChooseListName.png
 
